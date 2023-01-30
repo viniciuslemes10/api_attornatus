@@ -3,7 +3,7 @@
 
 > Status : Desenvolvimento ⚠️
 
-### Neste projeto tive como desafio:
+### Neste projeto contém duas entidades, essas entidades cada uma tem o seu Controller, tive como desafio:
 
 +	Criar uma pessoa
 +	Editar uma pessoa
@@ -23,7 +23,6 @@ Com o spring boot desenvolvi uma classe com os seguintes atributos, também util
 + Enderecos enderecos(outra entidade)
 
 
-
 ## Editar uma pessoa:
 
 Usei o insomnia para fazer uma requisição, que pode editar todos os campos da pessoa, para fazer isso deverá colocar o id(primary key) da pessoa
@@ -34,6 +33,26 @@ no json da requisição e o programa irá verificar se aquele id está cadastrad
 
 Para consultar uma pessoa terá que usar o insomnia para simular uma requisição que deve colocar o id no corpo da requicição, exemplo:
 http://localhost:8080/pessoas/id
+
+
+## Listar pessoas :
+
+De acordo com o campo ativo se caso a pessoa não tenha sido deletada, vai aparecer todas as informações das pessoas cadastradas.
+
+## Criar endereço para pessoa:
+
+Como Enderecos também é uma entidade ela também tem seus atributos:
+
++ logradouro
++ cep
++ numero
++ cidade
++ pessoa
++ ativo
+
+Em (pessoa) ele deverá informar o id da pessoa, para que com esse endereço quando for criado seja da pessoa que contém aquele id, caso não tenha o id(pessoa)
+no banco de dados o programa não vai cadastrar o endereço e gerar um erro.
+
 
 ## Tecnologias Usadas:
 
