@@ -55,6 +55,9 @@ no banco de dados o programa não vai cadastrar o endereço e gerar um erro.
 
 ## Listar endereços da pessoa:
 
+Listar todos os Endereços cadastrados no banco de dados.
+
+Observação: Realizei o CRUD neste projeto.
 
 ## Tecnologias Usadas:
 
