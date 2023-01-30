@@ -57,7 +57,7 @@ no banco de dados o programa não vai cadastrar o endereço e gerar um erro.
 
 Listar todos os Endereços cadastrados no banco de dados.
 
-Observação: Realizei o CRUD neste projeto.
+## Observação: Usei a conta do meu irmão no insomnia para fazer todas as requisições.
 
 ## Tecnologias Usadas:
 
