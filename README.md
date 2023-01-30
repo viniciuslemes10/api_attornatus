@@ -53,6 +53,8 @@ Como Enderecos também é uma entidade ela também tem seus atributos:
 Em (pessoa) ele deverá informar o id da pessoa, para que com esse endereço quando for criado seja da pessoa que contém aquele id, caso não tenha o id(pessoa)
 no banco de dados o programa não vai cadastrar o endereço e gerar um erro.
 
+## Listar endereços da pessoa:
+
 
 ## Tecnologias Usadas:
 
